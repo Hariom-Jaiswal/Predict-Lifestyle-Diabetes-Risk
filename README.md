@@ -17,50 +17,32 @@ To develop a **data-driven approach** for early diabetes risk assessment, aiding
 - **Programming Language:** Python
 - **Libraries:** Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn
 
-## 📂 Dataset
-- **Source:** [Dataset Link](https://drive.google.com/file/d/1mCoJrSTuFW4BxiH3nh4-e0EgqmqifW4p/view?usp=drive_link)
-- **Size:** 524 records, 14 features
-- **Key Features:** Age, Exercise Frequency, Activity Level, Sleep Duration, BMI, Health Conditions, and Risk Score
-
 ## 🏗️ Project Structure
 ```
 📂 Lifestyle-Diabetes-Risk
 │-- 📁 data              # Contains dataset files
 │-- 📁 notebooks         # Jupyter notebooks for analysis
-│-- 📁 models           # Trained machine learning models
+│-- 📁 report           # Contains detail report on the analysis
 │-- 📜 README.md        # Project documentation
-│-- 📜 requirements.txt # Dependencies
-│-- 📜 main.py          # Script to run predictions
 ```
 
 ## 🔥 How to Run the Project
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/Lifestyle-Diabetes-Risk.git
+   git clone https://github.com/Hariom-Jaiswal/Predict-Lifestyle-Diabetes-Risk.git
    ```
 2. **Navigate to the project folder:**
    ```bash
-   cd Lifestyle-Diabetes-Risk
+   cd Predict-Lifestyle-Diabetes-Risk
    ```
-3. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. **Run the analysis script:**
-   ```bash
-   python main.py
-   ```
+
 
 ## 📈 Results & Insights
 - **Risk Score Distribution:** Categorized into Low, Moderate, and High-Risk groups.
 - **Model Performance:** Random Forest showed the highest accuracy.
 - **Lifestyle Impact:** Sedentary lifestyle and high BMI were strong predictors of diabetes risk.
 
-## 📜 License
-This project is open-source and available under the **MIT License**.
-
 ---
-**Contributors:** Your Name (@yourusername)
 
 🚀 *Let's use data to improve health awareness!*
 
